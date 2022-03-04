@@ -2,7 +2,8 @@ from mail_ru_page import MailRuPage
 
 
 def test_send_mail(browser):
-    """Test for mail.ru service: write test message. Input Constants LOGIN and PASSWORD in locators.py before test."""
+    """Test for mail.ru service: write test message. Input Constants LOGIN, PASSWORD, EMAIL_TO_SEND_MESSAGE in
+    locators.py before test. """
     URL = "https://mail.ru/"
     page = MailRuPage(browser, URL)
     page.open()

@@ -9,7 +9,7 @@ class MainPageLocatorsWhiter:
 
 class MainPageLocatorsEmail:
     """In this class presented Constants for writing mail. Constants are sorted by filling logic."""
-    EMAIL_TO_SEND_MESSAGE = ""  # You can change sending mail-address by this Constant, type 'str'.
+    EMAIL_TO_SEND_MESSAGE = ""  # Write sending mail-address by this Constant, type 'str'.
     SUBJECT_IN_SEND_MESSAGE = "Тестовое письмо"  # You can change mail subject editing this Constant, type 'str'.
     BODY_IN_SEND_MESSAGE = "Текст тестового письма."  # You can change mail-message editing this Constant, type 'str'
 
